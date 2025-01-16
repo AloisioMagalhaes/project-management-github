@@ -43,7 +43,7 @@ jobs:
       fail-fast: false
       matrix:
         language: 
-          - typescript
+          - javascript-typescript
         build-mode: 
           - manual
         # CodeQL supports the following values keywords for 'language': 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
